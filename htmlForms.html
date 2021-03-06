@@ -10,28 +10,34 @@
 
 <body>
     <h2>HTML Forms</h2>
+    <button>Do Not SUBMIT!!</button>
     <!-- action : specifies where the form data goes -->
-    <form action="">
+    <form action="/search">
         <p>
             <label for="username">Enter username: </label>
-            <input id="username" type="text" placeholder="username">
+            <input id="username" type="text" placeholder="username" name="username">
         </p>
+        <button type="button">In the Middle!!</button>
+        <button type="submit">After the Middle!!</button>
         <p>
             <label for="password">Enter username: </label>
-            <input id="password" type="password" placeholder="password">
+            <input id="password" type="password" placeholder="password" name="password">
         </p>
         <p>
-            <label for="color">Black</label>
-            <input id="color" type="color">
+            <label for="color">enter a color</label>
+            <input id="color" type="color" name="color">
         </p>
         <p>
             <label id="cellno" for="">enter phone number</label>
-            <input for="cellno" type="number" placeholder="phone number">
+            <input for="cellno" type="number" placeholder="phone number" name="cellno">
         </p>
+        <button>button : Submit</button>
+        <input type="submit" value="input : submit">
     </form>
 </body>
 
 </html>
 
 <!-- <input> -->
-<!-- <labels> -->
+<!-- <label> -->
+<!-- <buton> -->
