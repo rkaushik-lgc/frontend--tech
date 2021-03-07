@@ -28,8 +28,8 @@
             <input id="color" type="color" name="color">
         </p>
         <p>
-            <label id="cellno" for="">enter phone number</label>
-            <input for="cellno" type="number" placeholder="phone number" name="cellno">
+            <label for="cellno">enter phone number</label>
+            <input id="cellno" type="tel" placeholder="phone number" name="cellno">
         </p>
         <button>button : Submit</button>
         <input type="submit" value="input : submit">
@@ -51,10 +51,46 @@
         <input type="text" name = "q" placeholder="search">
         <div>hit enter after typing text</div>
     </form>
+
+    <h4>New Input Forms</h4>
+    <form action="">
+        <p>Input type : checkbox</p>
+        <input id ="checkbox1" type="checkbox" name = "option" value = Tick1>
+        <label for="checkbox1">Tick1</label>
+        <button>Submit1</button>
+        <br>
+        <input id ="checkbox2" type="checkbox" name = "option" value = Tick2>
+        <label for="checkbox2">Tick2</label>
+        <button>Submit2</button>
+        <br>
+        <p>Input type : radio</p>
+        <!-- 'name' field group them together -->
+        <!-- to know which option you choose, take 'value' field -->
+        <input id ="radio1" type="radio" name = "option" value = "Tick1"> 
+        <label for="radio1">Tick1</label>
+        <button>Submit1</button>
+        <br>
+        <input id ="radio2" type="radio" name = "option" value = "Tick2">
+        <label for="radio2">Tick2</label>
+        <button>Submit2</button>
+
+        <p>Drop Down Menu</p>
+        <label for="shirtsize">Select your size</label>
+        <select name="size" id="shirtsize">
+            <option value="">Please choose a option</option>
+            <option value="Small" selected>Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+        </select>
+        <button>Submit</button>
+    </form>
 </body>
 
 </html>
 
-<!-- <input> -->
 <!-- <label> -->
 <!-- <buton> -->
+<!-- select -->
+<!-- <input> -->
+    <!-- text, submit, checkbox, radio -->
+    <!-- with checkbox we can select multiple options but in radio button only one can be selected -->
