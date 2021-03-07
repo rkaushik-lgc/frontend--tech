@@ -20,7 +20,7 @@
         <button type="button">In the Middle!!</button>
         <button type="submit">After the Middle!!</button>
         <p>
-            <label for="password">Enter username: </label>
+            <label for="password">Enter password: </label>
             <input id="password" type="password" placeholder="password" name="password">
         </p>
         <p>
@@ -31,6 +31,12 @@
             <label for="cellno">enter phone number</label>
             <input id="cellno" type="tel" placeholder="phone number" name="cellno">
         </p>
+
+        <p>
+            <label for="randno">enter any  number</label>
+            <input id="randno" type="number" placeholder="number" name="randno" min= "5" max = "10" step = "2">
+        </p>
+
         <button>button : Submit</button>
         <input type="submit" value="input : submit">
     </form>
@@ -78,11 +84,19 @@
         <label for="shirtsize">Select your size</label>
         <select name="size" id="shirtsize">
             <option value="">Please choose a option</option>
-            <option value="Small" selected>Small</option>
+            <option value="Small">Small</option>
             <option value="Medium">Medium</option>
             <option value="Large">Large</option>
         </select>
+        <p>Slider</p>
+        <label for="slider">AutoVolume</label>
+        <input id = "slider" type="range" min = "0" max = "10" step = "5" value= "10" name = "volLevel">
+        <p>Text Area</p>
+        <label for="comments">Additional Comments</label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="5" placeholder="Feedback"></textarea>
         <button>Submit</button>
+
     </form>
 </body>
 
@@ -91,6 +105,7 @@
 <!-- <label> -->
 <!-- <buton> -->
 <!-- select -->
+<!-- <textarea> -->
 <!-- <input> -->
-    <!-- text, submit, checkbox, radio -->
+    <!-- text, submit, checkbox, radio, range -->
     <!-- with checkbox we can select multiple options but in radio button only one can be selected -->
