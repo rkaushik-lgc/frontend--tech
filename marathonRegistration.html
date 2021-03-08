@@ -11,40 +11,54 @@
         <h2>RACE REGISTRATION POINT!!</h2>
         <p>
             <label for="firstname">Enter First Name</label>
-            <input id ="firstname" type="text" placeholder = "firstname" required>
+            <input id ="firstname" type="text" placeholder = "firstname" name = "firstname" required>
         </p>
+        <p>
             <label for="lastname">Enter Last Name</label>
-            <input id ="lastname" type="text" placeholder = "lastname" required>
+            <input id ="lastname" type="text" placeholder = "lastname" name = "lastname" required>
         </p>
 
-        </p>
+        <p>
             <label for="mail">Enter Email</label>
-            <input id ="mail" type="email" placeholder = "email" required>
+            <input id ="mail" type="email" placeholder = "email" name = "email" required>
         </p>
 
-        </p>
+        <p>
             <label for="password">Enter password</label>
-            <input id ="password" type="password" placeholder = "password" required>
+            <input id ="password" type="password" placeholder = "password" name = "password" required>
         </p>
 
         <h4>Select Race type: </h4>
-        <label for="funrun">Fun Run 5K</label>
-        <input id ="funrun" type="radio" value = "Fun Run 5K" name = "race_type">
-        <br>
-        <label for="full">Full Marathon</label>
-        <input id ="full" type="radio" value = "Full Marathon" name = "race_type">
-        <br>
-        <label for="half">Half Marathon</label>
-        <input id ="half" type="radio" value = "Half Marathon" name = "race_type">
+        <div>
+            <label for="funrun">Fun Run 5K</label>
+            <input id ="funrun" type="radio" value = "Fun Run 5K" name = "race_type">
+        </div>
 
-        <label for="age">Select age group</label>
-        <select name="" id="age">
-            <option value="">Please choose an option</option>
-            <option value="under 18"></option>
-            <option value="above 18"></option>
-            <option value="under 18"></option>
+        <div>
+            <label for="full">Full Marathon</label>
+            <input id ="full" type="radio" value = "Full Marathon" name = "race_type">
+        </div>
+
+        <div>
+            <label for="half">Half Marathon</label>
+            <input id ="half" type="radio" value = "Half Marathon" name = "race_type">
+        </div>
+        <br>  
+            <label for="age">Select age group</label>
+             
+            <select name="age_group" id="age">
+                <option value="">Please choose an option</option>
+                <option value="under 18">> 18</option>
+                <option value="18-30">18-30</option>
+                <option value="31-50">31-50</option>
+                <option value="< 60">< 60</option>
+            </select>
             
-        </select>
+
+            <div><button>Register</button></div>
+         
     </form>
 </body>
 </html>
+
+http://localhost:52330/marathonRegistration.html?race_type=Full+Marathon&age_group=18-30
