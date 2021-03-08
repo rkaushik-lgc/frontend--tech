@@ -4,6 +4,7 @@ h2
         font-weight: normal;
         /* width: 50%; */
         text-decoration : orange underline wavy;
+        font-size: 30px;
     }
 
  p
@@ -12,6 +13,8 @@ h2
         font-weight: 700;
         line-height: 2;
         letter-spacing: normal;
+        /* font-family: Avant Garde, Futura, Arial ; */
+        font-family: fantasy;
         /* text-decoration : overline;
         text-decoration : line-through; */
     }   
@@ -38,4 +41,5 @@ button
 /* CSS text properties
     text-allign, width
     font-weight, text-decoration
-    line-height, letter-spacing*/
+    line-height, letter-spacing
+    font-size, font-family*/
