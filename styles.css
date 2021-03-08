@@ -1,11 +1,41 @@
 h2
     {
-        color: white;
-        background-color: black;
+        text-align : center;
+        font-weight: normal;
+        /* width: 50%; */
+        text-decoration : orange underline wavy;
     }
+
+ p
+    {
+        font-weight: normal;
+        font-weight: 700;
+        line-height: 2;
+        letter-spacing: normal;
+        /* text-decoration : overline;
+        text-decoration : line-through; */
+    }   
 
 button 
     {
         background-color : black;
         color : white;
     }
+
+    a
+        {
+            text-decoration: none;
+        }
+
+ /* colors represented in rgb 
+    or
+    Hexadecimal : 0-9 , A-F
+    A = 10
+    .
+    .
+    F = 15 */ 
+    
+/* CSS text properties
+    text-allign, width
+    font-weight, text-decoration
+    line-height, letter-spacing*/
