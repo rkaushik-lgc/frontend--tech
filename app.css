@@ -3,17 +3,55 @@
 
 * 
     {
-        background-color: black;
+        background-color : blanchedalmond;
 
     }
 
 button
     {
         font-size: 30px;
-        color : white
+        color : white;
+       background-color: black;
     }
     
 h1,h2   
     {
         color : magenta;
+    }
+
+label
+    {
+        color: white;
     }    
+    
+/* ID selector : used in single elemets with unique id_name*/
+
+#signup
+    {
+        background-color: palegreen ;
+    }
+
+#login
+    {
+        background-color: purple;
+    }
+    
+/* class selector : grouping same type elements by using same class_name     */
+.credential
+    {
+        background-color: black; 
+         color : honeydew;
+    }
+
+.text
+    {
+        color : salmon
+    }
+    
+/* Descendant selector     */
+ ul a    /*nested elemets */
+    {
+        background-color: blue;
+        color : olive;
+    }
+
