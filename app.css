@@ -7,12 +7,12 @@
 
     }
 
-button
+/* button
     {
         font-size: 30px;
         color : white;
        background-color: black;
-    }
+    } */
     
 h1,h2   
     {
@@ -26,7 +26,7 @@ label
     
 /* ID selector : used in single elemets with unique id_name*/
 
-#signup
+/* #signup
     {
         background-color: palegreen ;
     }
@@ -34,7 +34,7 @@ label
 #login
     {
         background-color: purple;
-    }
+    } */
     
 /* class selector : grouping same type elements by using same class_name     */
 .credential
@@ -55,3 +55,57 @@ label
         color : olive;
     }
 
+/* Adjacent selector */
+
+h2 + p
+    {
+        color : lightcoral
+    }
+ 
+div + button
+        {
+            color : black;
+        }
+        
+/* Direct Child         */
+ li > a
+    {
+        font-size: 20px;
+    }
+
+/* Attribute selector     */
+
+input[type = "text"]   {color :indianred;}
+button[id = "login"]   {color : white;}
+
+/* Pseudo classes */
+#signup button:hover
+    {
+        color : white;
+        background-color: black;
+    }
+
+a:hover
+    {
+        color : blue;
+        background-color: white;
+    }
+ 
+button:active   {background-color: blue;
+                 color : white;    }
+                 
+/* :checked                 */
+/* :nth-of-type() */
+
+/* pseudo elements */
+    /* ::first-letter 
+        h2::first-letter{font-size:50px}*/
+    /* ::first-line
+        p::first-line{color:purple} */
+    /* ::selection
+        p::selection{back-ground:yellow} */
+
+ /*cascade ?? order matters whatever comes after will be implemented */
+
+ /* specificity ?? */
+    /* ID > CLASS > ELEMENT */
