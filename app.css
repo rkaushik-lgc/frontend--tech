@@ -109,3 +109,6 @@ button:active   {background-color: blue;
 
  /* specificity ?? */
     /* ID > CLASS > ELEMENT */
+
+    /*CSS inheritance : input and button do not inherit by default */
+        /* button,input{color:inherit} */
