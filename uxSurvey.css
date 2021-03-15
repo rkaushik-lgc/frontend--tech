@@ -1,0 +1,157 @@
+    #submit {
+    margin: auto;
+    display: block;
+    color: whitesmoke;
+    background-color: #0097fb;
+    text-align: center;
+    width: 15%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#submit:hover {
+    color: black;
+}
+
+.roleid label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-bottom: 13px;
+    font-weight: bold;
+}
+
+.roleid select {
+    width: 31%;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.credentials input {
+    padding: 7px;
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.credentials label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-bottom: 13px;
+    font-weight: bold;
+}
+
+.team h3 {
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 13px;
+    font-weight: bold;
+}
+
+.main_menu {
+    font-family: Arial, sans-serif;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+}
+
+.main_menu p {
+    background-color: lightslategrey;
+    margin-bottom: 50px;
+}
+
+.main_menu a {
+    text-decoration: none;
+    display: inline;
+    padding: 0 15px 0 15px;
+    font-size: 14;
+    color: black;
+    font-variant: small-caps;
+}
+
+.main_menu a:hover {
+    color: #59d5d8;
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+
+header p {
+    font-variant: small-caps;
+    text-align: center;
+    color: #fff;
+}
+
+header {
+    background-color: black;
+    height: 150px;
+    padding: 32px;
+}
+
+.ratings {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* line-height: -1rem; */
+    background: black;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+/* .ratings h3 {
+    display: inline-block;
+    color: white;
+}
+
+.ratings input {
+    display: none;
+}
+
+.ratings label {
+    display: block;
+    cursor: pointer;
+    background: #ccc;
+}
+
+.ratings label:before {
+    content: '\f005';
+    font-family: FontAwesome;
+    position: relative;
+    font-size: 20px;
+    color: #101010;
+}
+
+.ratings label:after {
+    content: '\f005';
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 20px;
+    color: #1f9cff;
+    top: 0;
+    opacity: 1;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+ }
+ 
+ .ratings label:hover::after {
+     opacity: 1; */
+ }
+ 
+ /* .comments label {
+     line-height: 10%;
+     font-weight: bold;
+     margin-right: 200px;
+ }
+ 
+ .comments textarea {
+     margin-top: 10px;
+ } */

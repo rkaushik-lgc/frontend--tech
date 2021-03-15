@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proof Of Concept</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="uxSurvey.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <h1>User Experience Survey</h1>
+            <p>survey conducted to improve user's experience and future feature planning based on user's feeddack.</p>
+        </header>
+    </div>
+
+    <div class="main_menu">
+        <nav>
+            <p>
+                <a href="https://www.tempemails.com">Tempelate emails</a>
+                <a href="https://www.filters.com">Activation list and fiters</a>
+                <a href="https://www.notes.com">Notes</a>
+                <a href="https://www.results.com">Releasing results</a>
+                <a href="https://www.logs.com">Activity log</a>
+            </p>
+        </nav>
+    </div>
+
+    <form action="/survey" id="survey-form">
+        <div class="credentials" align="center">
+            <label for="name">Full name: </label>
+            <input id="name" type="text" placeholder="username or fullname" name="username_search" required>
+            <br>
+            <label for="email">Enter E-mail: </label>
+            <input id="email" type="email" placeholder="email" name="email_search" align="center" required>
+            <br>
+            <label for="age">Enter Age: </label>
+            <input id="age" type="number" placeholder="age" name="age_search" min="18" max="90" required>
+        </div>
+
+        <br>
+
+        <div class="roleid" align="center">
+            <label for="roles">Current Role: </label>
+            <select name="roleid_search" id="roles" required>
+                <option value="">Please choose role-id</option>
+                <option value="#647">id #647</option>
+                <option value="#127">id #127</option>
+                <option value="#646">id #646</option>
+                <option value="#168">id #168</option>
+            </select>
+        </div>
+
+        <div class="team" align="center">
+            <h3>Prefered Team:</h3>
+            <input type="radio" name="team" id="halo">
+            <label for="halo">Halo</label>
+            <input type="radio" name="team" id="core">
+            <label for="core">Core</label>
+        </div>
+
+
+        <div class="ratings" align="center">
+            <h3>Overall Rating: </h3>
+            <input type="radio" id="star1" name="rate" value="1">
+            <label for="star1"></label>
+            <input type="radio" id="star2" name="rate" value="2">
+            <label for="star2"></label>
+            <input type="radio" id="star3" name="rate" value="3">
+            <label for="star3"></label>
+            <input type="radio" id="star4" name="rate" value="4">
+            <label for="star4"></label>
+            <input type="radio" id="star5" name="rate" value="5">
+            <label for="star5"></label>
+        </div>
+
+        <div class="comments" align="center">
+            <label for="">Additional Comments </label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10">Never cared less!!</textarea>
+        </div>
+
+
+        <div><button id="submit">Just Do It</button></div>
+
+    </form>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>
+
+<!-- <container> -->
+<!-- <button> -->
+<!-- <size> -->
